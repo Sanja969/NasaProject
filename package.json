@@ -11,6 +11,7 @@
     "client": "npm start --prefix client",
     "watch": "npm run server & npm run client",
     "deploy": "npm run build --prefix client && npm start --prefix server",
+    "deploy-cluster": "npm run build --prefix client && npm run cluster --prefix server",
     "test": "npm test --preix server && npm test --prefix client"
   },
   "repository": {
@@ -23,5 +24,9 @@
   "bugs": {
     "url": "https://github.com/Sanja969/NasaProject/issues"
   },
-  "homepage": "https://github.com/Sanja969/NasaProject#readme"
+  "homepage": "https://github.com/Sanja969/NasaProject#readme",
+  "dependencies": {
+    "mongoose": "^6.8.0",
+    "pm2": "^5.2.2"
+  }
 }
