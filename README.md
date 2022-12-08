@@ -4,7 +4,7 @@
 
 ## Built With
 
-- ES6, Node
+- Node, Express, Javascript
 
 # Getting Started
 
@@ -23,7 +23,8 @@ to get a local copy , clone the repository using git clone
 After you clone it run  the following commands:
 
 - npm install
-- npm run watch
+- npm build
+- npm run server
 
 
 ## Authors
