@@ -23,8 +23,7 @@ to get a local copy , clone the repository using git clone
 After you clone it run  the following commands:
 
 - npm install
-- npm build
-- npm run server
+- npm deploy
 
 
 ## Authors
