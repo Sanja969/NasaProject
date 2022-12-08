@@ -6,6 +6,12 @@
 
 - Node, Express, Javascript
 
+## Architecture Diagram
+
+  <kbd>
+    <img src="/assets/diagram.png" alt="book-home" width="800">
+  </kbd>
+
 # Getting Started
 
 To get a local copy up and running follow these simple example steps.
