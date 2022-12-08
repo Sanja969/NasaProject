@@ -1,6 +1,6 @@
 # NasaProject
 
- Node backend with built frontend by Nasa. Nasa mission controller dashboard app to schedule the missions targeting habitable planets. Nasa's Exoplanet Archive which gathered information from the Kepler spacecraft launch into space in 2009. Kepler observed hundreds of thousands of stars, and doing so, helped us discover over four thousand planets.
+ Node backend with built frontend by ZTM. Nasa mission controller dashboard app to schedule the missions targeting habitable planets. Nasa's Exoplanet Archive which gathered information from the Kepler spacecraft launch into space in 2009. Kepler observed hundreds of thousands of stars, and doing so, helped us discover over four thousand planets.
 
 ## Built With
 
