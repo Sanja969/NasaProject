@@ -17,8 +17,8 @@ function loadPlanetsData() {
         columns: true,
       }))
       .on('data', async (data) => {
-        if (isHabitable(planet)) {
-          savePlanets();
+        if (isHabitable(data)) {
+          savePlanets(data);
         }
       })
       .on('error', (err) => {
@@ -35,7 +35,9 @@ function loadPlanetsData() {
 };
 
 async function getAllPlanets() {
-  return await planets.find({});
+  return await planets.find({}, {
+    '_id': 0, '__v': 0,
+  });
 }
 
 async function savePlanets(planet) {
