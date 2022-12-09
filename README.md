@@ -4,7 +4,7 @@
 
 ## Built With
 
-- Node, Express, Javascript
+- Node, Express, Javascript, MangoDb, Mongoose
 
 ## Architecture Diagram
 
