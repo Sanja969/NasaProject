@@ -1,10 +1,14 @@
 # NasaProject
 
- Node backend with built frontend by ZTM. Nasa mission controller dashboard app to schedule the missions targeting habitable planets. Nasa's Exoplanet Archive which gathered information from the Kepler spacecraft launch into space in 2009. Kepler observed hundreds of thousands of stars, and doing so, helped us discover over four thousand planets.
+ Server with exoplanets and launches endpoints with frontend made by ZTM which fetchis data it. Nasa mission controller dashboard app for scheduling the missions targeting habitable planets. Nasa's Exoplanet Archive which gathered information from the Kepler spacecraft launch into space in 2009. Kepler observed hundreds of thousands of stars, and doing so, helped us discover over four thousand planets. I filtered habitable planets by some criteria. This API also fetcing data from SpaceX API and displaying all launches made by them.
 
-## Built With
+## Technologies
 
-- Node, Express, Javascript, MangoDb, Mongoose
+- Node, Express, Javascript, MangoDB, Mongoose, Docker, PM2
+
+## Hosted on AWS using ES2 service. See live demo:
+
+[nasa-project-live](http://3.83.232.210:5000/)
 
 ## Architecture Diagram
 
