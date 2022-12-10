@@ -6,7 +6,7 @@ Nasa mission controller dashboard app for scheduling the missions targeting habi
 
 - Node, Express, Javascript, MangoDB, Mongoose, Docker, PM2
 
-## Hosted on AWS using ES2 service. See live demo:
+## Created ES2 server on AWS. See live demo:
 
 [nasa-project-live](http://3.83.232.210:5000/)
 
