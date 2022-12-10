@@ -33,7 +33,7 @@ to get a local copy , clone the repository using git clone
 After you clone it run  the following commands:
 
 - npm install
-- create MongoDB database in MongoDB Atlas and copy your own dotenv mongo data for connecting to database 
+- create MongoDB database in MongoDB Atlas and create your own dotenv mongo data for connecting to database 
 - npm run server
 
 
