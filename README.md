@@ -4,7 +4,7 @@ Nasa mission controller dashboard app for scheduling the missions targeting habi
 
 ## Technologies
 
-- Node, Express, Javascript, MangoDB, Mongoose, Docker, PM2
+- NodeJS, Express, Javascript, MangoDB, Mongoose, Docker, PM2, REST
 
 ## Created ES2 server on AWS. See live demo:
 
