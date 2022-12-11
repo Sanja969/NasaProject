@@ -1,6 +1,6 @@
 # NasaProject
 
-Nasa mission controller dashboard app for scheduling the missions targeting habitable planets. Nasa's Exoplanet Archive which gathered information from the Kepler spacecraft launch into space in 2009. Kepler observed hundreds of thousands of stars, and doing so, helped us discover over four thousand planets. I filtered habitable planets by some criteria. This API also fetcing data from SpaceX API and displaying all launches made by them. Frontend made by ZTM.
+Nasa mission controller dashboard app for scheduling the missions targeting habitable planets. NASA's Exoplanet Archive which gathered information from the Kepler spacecraft launch into space in 2009. Kepler observed hundreds of thousands of stars, and doing so, helped us discover over four thousand planets. I filtered habitable planets by some criteria. This API also fetcing data from SpaceX API and displaying all launches made by them. Frontend made by ZTM.
 
 ## Technologies
 
@@ -9,6 +9,23 @@ Nasa mission controller dashboard app for scheduling the missions targeting habi
 ## Created ES2 server on AWS. See live demo:
 
 [nasa-project-live](http://3.83.232.210:5000/)
+
+## Endpoints
+
+Planets:
+
+GET: http://3.83.232.210:5000/v1/planets
+
+Launches:
+
+GET: http://3.83.232.210:5000/v1/launches
+POST: http://3.83.232.210:5000/v1/launches 
+      body: {      
+        mission: String,
+        rocket: String,
+        launchDate: Date,
+        target: String }
+DELETE: http://3.83.232.210:5000/v1/launches/id
 
 ## Architecture Diagram
 
@@ -19,8 +36,6 @@ Nasa mission controller dashboard app for scheduling the missions targeting habi
 # Getting Started
 
 To get a local copy up and running follow these simple example steps.
-
-# Live Demo
 
 
 ### Download it as a ZIP file
