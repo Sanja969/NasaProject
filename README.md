@@ -14,18 +14,18 @@ Nasa mission controller dashboard app for scheduling the missions targeting habi
 
 Planets:
 
-GET: http://3.83.232.210:5000/v1/planets
+- GET: http://3.83.232.210:5000/v1/planets
 
 Launches:
 
-GET: http://3.83.232.210:5000/v1/launches
-POST: http://3.83.232.210:5000/v1/launches 
+- GET: http://3.83.232.210:5000/v1/launches
+- POST: http://3.83.232.210:5000/v1/launches 
       body: {      
         mission: String,
         rocket: String,
         launchDate: Date,
         target: String }
-DELETE: http://3.83.232.210:5000/v1/launches/id
+- DELETE: http://3.83.232.210:5000/v1/launches/id
 
 ## Architecture Diagram
 
