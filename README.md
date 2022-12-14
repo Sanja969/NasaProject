@@ -10,6 +10,13 @@ Nasa mission controller dashboard app for scheduling the missions targeting habi
 
 [nasa-project-live](http://3.83.232.210:5000/)
 
+## Architecture Diagram
+
+  <kbd>
+    <img src="/assets/diagram.png" alt="book-home" width="800">
+  </kbd>
+
+
 ## Endpoints
 
 Planets:
@@ -27,11 +34,6 @@ Launches:
         target: String }
 - DELETE: http://3.83.232.210:5000/v1/launches/id
 
-## Architecture Diagram
-
-  <kbd>
-    <img src="/assets/diagram.png" alt="book-home" width="800">
-  </kbd>
 
 # Getting Started
 
@@ -50,8 +52,6 @@ After you clone it run  the following commands:
 - npm install
 - create MongoDB database in MongoDB Atlas and create your own dotenv mongo data for connecting to database 
 - npm run server
-
-
 
 ## Authors
 
