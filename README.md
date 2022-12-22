@@ -13,6 +13,7 @@ Nasa mission controller dashboard app for scheduling the missions targeting habi
 
 ## Architecture Diagram
 
+
   <kbd>
     <img src="/assets/diagram.png" alt="book-home" width="800">
   </kbd>
