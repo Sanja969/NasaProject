@@ -9,7 +9,7 @@ To enhance the experience further, the app integrates with the SpaceX API, provi
 
 ## Technologies
 
-- NodeJS, Express, Javascript, MangoDB, Mongoose, Docker, PM2, REST
+- NodeJS, Express, Javascript, MongoDB, Mongoose, Docker, PM2, REST
 
 ## Created ES2 server on AWS. See live demo:
 
