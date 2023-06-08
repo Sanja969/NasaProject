@@ -1,6 +1,10 @@
 # NasaProject
 
-Nasa mission controller dashboard app for scheduling the missions targeting habitable planets. NASA's Exoplanet Archive which gathered information from the Kepler spacecraft launch into space in 2009. Kepler observed hundreds of thousands of stars, and doing so, helped us discover over four thousand planets. I filtered habitable planets by some criteria. This API also fetces data from SpaceX API and displas all launches made by them. Frontend made by ZTM.
+The NASA Exoplanet Mission Scheduler is a comprehensive web application designed to facilitate the scheduling and exploration of habitable planets. Built upon the vast dataset provided by NASA's Exoplanet Archive, which collected information from the Kepler spacecraft launched into space in 2009, this app empowers users to delve into the exciting world of exoplanets.
+
+With the NASA Exoplanet Mission Scheduler, users can leverage the power of data gathered by Kepler, which observed hundreds of thousands of stars and unveiled over four thousand planets. The app allows users to filter and discover habitable planets based on their own custom criteria. This robust filtering system ensures that users can narrow down their search to planets that meet specific requirements, such as size, distance from their star, and potential for sustaining life.
+
+To enhance the experience further, the app integrates with the SpaceX API, providing users with up-to-date information on all launches made by SpaceX. This integration allows users to stay informed about the latest advancements in space exploration and witness the remarkable progress made by commercial space ventures.
 
 
 ## Technologies
